@@ -10,3 +10,4 @@ su - sonar
 # use the below command manually after installation
 #sh /opt/sonarqube-8.9.6.50800/bin/linux-x86-64/sonar.sh start
 #echo "user=admin & password=admin"
+#Use this in jenkins pipeline sh 'mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.7.0.1746:sonar'
